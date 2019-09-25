@@ -1,0 +1,297 @@
+body {
+    font-size: 16px;
+    background-color: black;    
+}
+
+.container {
+    box-sizing: border-box;
+    margin: auto;
+    border:1px solid black;
+    width: 1311px;
+    background-color: white; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.item--show:hover .dropdown {
+    display: block;
+}
+
+.dropdown--show:hover {
+    display: block;
+}
+
+.dropdown__dropdown-2 {
+    display: none;
+    position: absolute;
+    right:-193px;
+    top: 0px;
+}
+
+.menu__dropdown {
+    display: none;
+    position: absolute;
+    right:500px;
+    top: 60px;
+}
+
+.dropdown__item {
+    background-color: #212121;
+    border-bottom: 1px solid #202020;
+    width: 170px;
+    padding: 10px;
+    color: gray;
+}
+
+.dropdown-2__item {
+    background-color: #212121;
+    border-bottom: 1px solid #202020;
+    width: 170px;
+    padding: 10px;
+    color: gray;
+}
+
+.dropdown-2__item:hover {
+    color: white;
+}
+
+.dropdown--show:hover .dropdown-2 {
+    display: block;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.dropdown__item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__bottom {
+    display: flex;
+    border-top: 7px solid black;
+}
+
+.logo {
+
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.menu__item:hover {
+    color:#ae3b44;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
+/* .menu li:hover {
+    color: #ae3b44;
+    cursor: pointer;
+} */
+
+.content {
+    display: flex;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner__img {
+    
+}
+
+.banner__text {
+    padding-top:10px;
+    display: flex;
+    background-color: #ae3b44;
+    padding-right: 10px;
+    
+}
+
+.text__left {
+    font-size: 24px;
+    width:25%;
+    box-sizing: border-box;
+    padding-left:20px;
+    padding-right:10px;
+    color: white;
+    
+}
+
+.text__right {
+    width:75%;
+}
+
+/* .aboutContainer {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 50%;
+    display: flex;
+    background-color: #ae3b44;
+    justify-content: center;
+} */
+
+/* .about {
+    display: inline-block;
+    font-size: 26px;
+    color: white;
+} */
+
+.nav {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    border-right: 1px solid #ececec;
+}
+
+.custom-menu__item {
+    padding: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.custom-menu__item:hover {
+    color: #ae3b44;
+}
+
+.custom-menu__item:first-child {
+    font-weight: bold;
+} 
+
+/* .customMenu div:hover {
+    cursor: pointer;
+    color: #ae3b44;
+} */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.content {
+    display: flex;
+    border-bottom: 1px solid #ececec;
+}
+
+.nav__custom-menu {
+    padding-top: 30px;
+    background-color: white;
+    width:247px;
+}
+
+.main__title {
+    padding: 20px;
+    padding-top: 0px;
+    padding-left:0px;
+    font-size: 26px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom:0px;
+}
+
+.main__about {
+    padding: 20px;
+    padding-top: 0xp;
+    padding-left:0px;
+    color: #909293;
+    border-bottom: 1px solid #ececec;
+}
+
+.main__subtitle {
+    color: #ae3b44;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.main__img {
+    display: flex;
+}
+
+.main__img img {
+    margin: auto;
+}
+
+.img__caption {
+    color: #909293;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.main__hand-picture {
+    float:left;
+    margin: 30px;
+    border-bottom: 7px solid black;
+    
+}
+
+.main__text {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+}
+
+.column-4 {
+    padding: 20px;
+    border-bottom: 1px solid #ececec;
+}
+
+.deploymentTools-2 {
+    color: #ae3b44;
+    margin-bottom: 20px;
+    
+}
+
+.main__control {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.control__back-page {
+    display: flex;
+}
+
+.control__next-page {
+    display: flex;
+}
+
+.back-page__link {
+    color: #ae3b44;
+    margin-left: 10px;
+}
+
+.next-page__link {
+    color:#ae3b44;
+    margin-right: 10px;
+}
+
+.clients {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
